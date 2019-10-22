@@ -1,0 +1,95 @@
+body{
+  font-family: ariel;
+  font-size: 16px;
+  line-height: 1.6em;
+
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.bb{
+  background-color: blue;
+  color: white;
+  font-size: 70px;
+
+}
+
+.container{
+  width: 80%;
+  margin: 20px auto;
+  overflow: auto;
+
+}
+
+.spmkolonne {
+  -webkit-column-count: 2; /* Old Chrome, Safari and Opera */
+  -moz-column-count: 2; /* Old Firefox */
+  column-count: 2;
+  column-width: 70px;
+  column-gap: 40px;
+  column-rule: 4px solid midnightblue;
+}
+
+.quizHead{
+  background: midnightblue;
+  background-image: linear-gradient(to right, midnightblue, lightblue);
+  color: white;
+  padding: 10px 5px;
+  overflow:auto;
+  font-size: 20px;
+
+}
+
+
+.quizz{
+  font-size: 25px;
+  font-family: sans-serif;
+
+
+}
+.pull-left{float:left;}
+.pull-right{float:right;}
+
+header{
+  background: midnightblue;
+  background-image: linear-gradient(to right, midnightblue, lightblue);
+  color: white;
+  padding: 50px 30px;
+  overflow:auto;
+  font-size: 50px;
+}
+
+footer{
+  background: midnightblue;
+  background-image: linear-gradient(to right, midnightblue, lightblue);
+  color: white;
+  padding: 5px 10px;
+  overflow:auto;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 900px){
+  .container{
+    width: 95%;
+  }
+}

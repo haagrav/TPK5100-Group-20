@@ -1,0 +1,61 @@
+body{
+  font-family: ariel;
+  font-size: 16px;
+  line-height: 1.6em;
+  background: #f4f4f4f4;
+
+}
+
+.bb{
+  background-color: blue;
+  color: white;
+  font-size: 19px;
+
+}
+
+.container{
+  width: 80%;
+  margin: 20px auto;
+  overflow: auto;
+
+}
+
+
+
+/* Change the link color on hover */
+.imput click {
+  background-color: #555;
+  color: white;
+}
+
+
+.quizz{
+  font-size: 20px;
+  font-family: sans-serif;
+
+
+}
+.pull-left{float:left;}
+.pull-right{float:right;}
+
+header{
+  background: blue;
+  color: white;
+  padding: 5px 10px;
+  overflow:auto;
+  font-size: 19px;
+}
+
+footer{
+  background: blue;
+  color: white;
+  padding: 5px 10px;
+  overflow:auto;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 900px){
+  .container{
+    width: 95%;
+  }
+}
