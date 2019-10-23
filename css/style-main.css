@@ -116,7 +116,7 @@ li a:hover:not(.active) {
   color: white;
   padding: 50px 30px;
   overflow:auto;
-  font-size: 50px;
+  font-size: 5.0vw;
   text-align: center;
 }
 .headerq{
@@ -127,7 +127,7 @@ li a:hover:not(.active) {
 }
 .annenTekst{
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   word-spacing: 5px
   padding: 1px 1px;
   line-height: 1.8;
@@ -138,14 +138,15 @@ li a:hover:not(.active) {
   color: white;
   padding: 100px 15px;
   overflow:auto;
-  font-size: 200px;
+  font-size: 10.0vw;
   text-align: center;
 }
+
 .underskrift{
   color: white;
   padding: 10px 15px;
   overflow:auto;
-  font-size: 30px;
+  font-size: 1.6vw;
   text-align: center;
   font-style: italic;
 
