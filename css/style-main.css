@@ -1,10 +1,30 @@
-body{
+.bodyHovud{
+  font-family: ariel;
+  font-size: 16px;
+  line-height: 1.6em;
+  background: url("http://static1.squarespace.com/static/55ee34aae4b0bf70212ada4c/57d9829837c5819632bc630b/5ccbdc1471c10b4a011b91b3/1557253389741/?format=1500w");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.bodyAndre{
   font-family: ariel;
   font-size: 16px;
   line-height: 1.6em;
   background: midnightblue;
-  background-image: linear-gradient(midnightblue, lightblue);
-  background-repeat: repeat-x;
+  background-image: radial-gradient(midnightblue, lightblue);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bodyQuiz{
+  font-family: ariel;
+  font-size: 16px;
+  line-height: 1.6em;
+  background: midnightblue;
+  background-image: radial-gradient(midnightblue, lightblue);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 ul {
@@ -19,7 +39,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1.0vh 1.0vw;
   font-size: 1.0vw;
   text-decoration: none;
 }
@@ -29,7 +49,7 @@ li a {
   color: white;
   font-size: 1.0vw;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1.0vh 1.0vw;
   text-decoration: none;
   float: left;
 }
@@ -88,7 +108,7 @@ li a:hover:not(.active) {
 
 
 .quizAlt{
-  font-size: 30px;
+  font-size: 1.3vw;
   font-family: serif;
   letter-spacing: 1px;
   padding: 5px 5px;
@@ -106,7 +126,7 @@ li a:hover:not(.active) {
   color: white;
   padding: 10px 10px;
   overflow:auto;
-  font-size: 40px;
+  font-size: 2.0vw;
   word-spacing: 5px
   text-decoration: underline;
 
@@ -120,6 +140,7 @@ li a:hover:not(.active) {
   overflow:auto;
   font-size: 5.0vw;
   text-align: center;
+  -webkit-text-stroke: 2px black;
 }
 .headerq{
   color: white;
@@ -129,11 +150,11 @@ li a:hover:not(.active) {
 }
 .annenTekst{
   color: white;
-  font-size: 18px;
+  font-size: 1.5vw;
   word-spacing: 5px
   padding: 1px 1px;
   line-height: 1.8;
-
+  -webkit-text-stroke: 0.2px black;
 }
 
 .overskrift{
@@ -142,15 +163,17 @@ li a:hover:not(.active) {
   overflow:auto;
   font-size: 10.5vw;
   text-align: center;
+  -webkit-text-stroke: 2px black;
 }
 
 .underskrift{
   color: white;
-  padding: 10px 15px;
+  padding: 50px 45px;
   overflow:auto;
   font-size: 2.5vw;
   text-align: center;
   font-style: italic;
+  -webkit-text-stroke: 1px black;
 
 }
 
