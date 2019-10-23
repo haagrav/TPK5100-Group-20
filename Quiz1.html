@@ -6,77 +6,83 @@
     <meta name="keywords" content="HTML, kramster, NTNU">
     <meta name="description" content="Fy fader for en nettside">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style-quiz.css" type="text/css">
+    <link rel="stylesheet" href="css/style-main.css" type="text/css">
     <title>Gutta krutt</title>
 
 	</head>
 	<body>
-<br/> <br/> <br/> <br/> <br/> 
-
-<div class="container">
   <header>
-    <div class="pull-left"> Test Quiz</div>
-    <div class="pull-right"> TPK etellerannet </div>
+    <ul>
+      <li class="pull-right"><a href="https://www.ntnu.edu/studies/courses/TPK5100#tab=omEmnet" target="_blank">TPK 5100 website</a></li>
+      <li class="pull-right"><a href="side2.html" class="active">Questions/quiz</a></li>
+      <li class="pull-right"><a href="about.html">About</a></li>
+      <li class="pull-right"><a href="index.html"> Home</a></li>
+      <li class="leftie">TPK5100 Website</li>
+    </ul>
   </header>
+  <div id="page-container">
+    <div id=page-wrap>
+      <div class="container">
+        <main>
+      <br/> <br/> <br/> <br/> <br/>
 
-  <main>
-    <form class ="QF" id="Q1" data-question="1">
-      <h3> Is this a good website? </h3>
-      <ol type="A">
-        <li><input type="radio" name="Q1" value="a" />Yes</li>
-        <li><input type="radio" name="Q1" value="b" />No</li>
-        <li><input type="radio" name="Q1" value="c" />Maybe</li>
-        <li><input type="radio" name="Q1" value="d" />idk</li>
+          <form class ="QF" id="Q1" data-question="1">
+            <h3 class="QQ"> Is this a good website? </h3>
+            <ol type="A">
+              <li class="quizAlt"><input type="radio" name="Q2" value="a" />Yes</li>
+              <li class="quizAlt"><input type="radio" name="Q2" value="b" />No</li>
+              <li class="quizAlt"><input type="radio" name="Q2" value="c" />Maybe</li>
+              <li class="quizAlt"><input type="radio" name="Q2" value="d" />idk</li>
+            </ol>
+            <button id="submit">Submit</button>
+          </form>
 
-      </ol>
-      <button id="submit">Submit</button>
-    </form>
+          <form class="fasit" id="F1" data-question="1">
+            <h2> Correct answer: A. <br/> Yes of course! </h2>
+            <button id="next">Next</button>
+          </form>
 
-    <form class="fasit" id="F1" data-question="1">
-      <h2> Correct answer: A. <br/> Yes of course! </h2>
-      <button id="next">Next</button>
-    </form>
+          <form class ="QF" id="Q2" data-question="2">
+            <h3 class="QQ"> Is this a good website? </h3>
+            <ol type="A">
+              <li class="quizAlt"><input type="radio" name="Q2" value="a" />Yes</li>
+              <li class="quizAlt"><input type="radio" name="Q2" value="b" />No</li>
+              <li class="quizAlt"><input type="radio" name="Q2" value="c" />Maybe</li>
+              <li class="quizAlt"><input type="radio" name="Q2" value="d" />idk</li>
+            </ol>
+            <button id="submit">Submit</button>
+          </form>
 
-    <form class ="QF" id="Q2" data-question="2">
-      <h3> Is this a cool website? </h3>
-      <ol type="A">
-        <li><input type="radio" name="Q2" value="a" />Yes</li>
-        <li><input type="radio" name="Q2" value="b" />No</li>
-        <li><input type="radio" name="Q2" value="c" />Maybe</li>
-        <li><input type="radio" name="Q2" value="d" />idk</li>
-      </ol>
-      <button id="submit">Submit</button>
-    </form>
+          <form class="fasit" id="F2" data-question="2">
+            <h2> Correct answer: A.  <br/> Yes of course! </h2>
+            <button id="next">Next</button>
+          </form>
 
-    <form class="fasit" id="F2" data-question="2">
-      <h2> Correct answer: A.  <br/> Yes of course! </h2>
-      <button id="next">Next</button>
-    </form>
+          <form class ="QF" id="Q3" data-question="3">
+            <h3 class="QQ"> Is this a good website? </h3>
+            <ol type="A">
+              <li class="quizAlt"><input type="radio" name="Q2" value="a" />Yes</li>
+              <li class="quizAlt"><input type="radio" name="Q2" value="b" />No</li>
+              <li class="quizAlt"><input type="radio" name="Q2" value="c" />Maybe</li>
+              <li class="quizAlt"><input type="radio" name="Q2" value="d" />idk</li>
+            </ol>
+            <button id="submit">Submit</button>
+          </form>
 
-    <form class ="QF" id="Q3" data-question="3">
-      <h3> Is this a sexy website? </h3>
-      <ol type="A">
-        <li><input type="radio" name="Q3" value="a" />Yes</li>
-        <li><input type="radio" name="Q3" value="b" />No</li>
-        <li><input type="radio" name="Q3" value="c" />Maybe</li>
-        <li><input type="radio" name="Q3" value="d" />idk</li>
-      </ol>
-      <button id="submit">Submit</button>
-    </form>
-
-    <form class="fasit" id="F3" data-question="3">
-      <h2> Correct answer: A. <br/> Yes of course! </h2>
-      <button id="next">Next</button>
-    </form>
-    <div id="results"></div>
-    <br/>
-  </main>
-
-  <footer>
-    <div class="pull-left"> Her kan vi putte tekst</div>
-    <div class="pull-right"> Og her, hvis vi vil</div>
-
+          <form class="fasit" id="F3" data-question="3">
+            <h2> Correct answer: A. <br/> Yes of course! </h2>
+            <button id="next">Next</button>
+          </form>
+          <div id="results"></div>
+          <br/>
+        </main>
+      </div>
+  <footer id="footer">
+    <ul>
+      <li class="pull-left"><a href="index.html"> Back to the main page</a></li>
+    </ul>
   </footer>
+</div>
 </div>
 
 
@@ -86,8 +92,6 @@
   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
   crossorigin="anonymous"></script>
 <script src="Js/quiz.js"></script>
-
-
 </body>
 
 

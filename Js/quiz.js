@@ -43,7 +43,7 @@ function process(n){
   }
 
   if(n == total){
-    $('#results').html('<h3> Your results : '+score+' out of  '+highest+' points. </h3><a href="spm.html"> Take the quiz again!</a> <br/> <a href="index.html">Homepage!</a><br/> <a href="side2.html">Take another quiz!</a>');
+    $('#results').html('<h3 class="QQ" > Your results : '+score+' out of  '+highest+' points. <br/> <br/> <br/> <ul><li><a href="Quiz1.html"> Take the quiz again!</a></li> <li><a href="index.html">Homepage!</a></li></ul>');
   }
   return false;
 }
