@@ -10,7 +10,7 @@ function init(){
   sessionStorage.setItem('a3','c');
   sessionStorage.setItem('a4','b');
   sessionStorage.setItem('a5','d');
-  sessionStorage.setItem('a6','a');
+  sessionStorage.setItem('a6','d');
   sessionStorage.setItem('a7','d');
   sessionStorage.setItem('a8','b');
   sessionStorage.setItem('a9','d');
@@ -59,7 +59,7 @@ function process(n){
   }
 
   if(n == total){
-    $('#results').html('<h3 class="QQ" > Your results : '+score+' out of  '+highest+' points. <br/> <br/> <br/> <ul><li><a href="Quiz1.html"> Take the quiz again!</a></li> <li><a href="index.html">Homepage!</a></li></ul>');
+    $('#results').html('<h3 class="QQ" > Your got: '+score+' out of  '+highest+' points. <br/> <br/> <br/> <ul><li><a href="Quiz1.html"> Take the quiz again!</a></li> <li><a href="index.html">Homepage!</a></li></ul>');
   }
   return false;
 }
