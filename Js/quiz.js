@@ -1,13 +1,29 @@
 var score = 0;
-var total = 3;
+var total = 19;
 var points = 1;
 var highest = points * total;
 
 function init(){
 
   sessionStorage.setItem('a1','a');
-  sessionStorage.setItem('a2','a');
-  sessionStorage.setItem('a3','a');
+  sessionStorage.setItem('a2','d');
+  sessionStorage.setItem('a3','c');
+  sessionStorage.setItem('a4','b');
+  sessionStorage.setItem('a5','d');
+  sessionStorage.setItem('a6','a');
+  sessionStorage.setItem('a7','d');
+  sessionStorage.setItem('a8','b');
+  sessionStorage.setItem('a9','d');
+  sessionStorage.setItem('a10','b');
+  sessionStorage.setItem('a11','b');
+  sessionStorage.setItem('a12','a');
+  sessionStorage.setItem('a13','c');
+  sessionStorage.setItem('a14','c');
+  sessionStorage.setItem('a15','d');
+  sessionStorage.setItem('a16','a');
+  sessionStorage.setItem('a17','c');
+  sessionStorage.setItem('a18','b');
+  sessionStorage.setItem('a19','b');
 }
 
 $(document).ready(function(){
