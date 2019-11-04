@@ -36,6 +36,8 @@ $(document).ready(function(){
   $('.QF #submit').click(function(){
     current = $(this).parents('form:first').data('question');
     next = $(this).parents('form:first').data('question')+1;
+    process(''+current+'')
+    $('#Check'+current+'' ).fadeIn(300);
     $('#F'+current+'' ).fadeIn(300);
     return false;
   });
@@ -45,7 +47,9 @@ $(document).ready(function(){
     next = $(this).parents('form:first').data('question')+1;
     $('.QF').hide();
     $('.fasit').hide();
-    process(''+current+'')
+    if(current == total){
+      $('#results').html('<h3 class="QQ" > You got: '+score+' out of  '+highest+' points. <br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/> <ul><li><a href="Quiz1.html"> Take the quiz again!</a></li> <li><a href="index.html">Homepage!</a></li></ul>');
+    }
     $('#Q'+next+'' ).fadeIn(300);
     return false;
   });
@@ -54,13 +58,17 @@ $(document).ready(function(){
 
 function process(n){
   var submitted = $('input[name=Q'+n+']:checked').val();
+  scorePrev = score;
   if(submitted == sessionStorage.getItem('a'+n+'')){
     score = score + points;
   }
-
-  if(n == total){
-    $('#results').html('<h3 class="QQ" > Your got: '+score+' out of  '+highest+' points. <br/> <br/> <br/> <ul><li><a href="Quiz1.html"> Take the quiz again!</a></li> <li><a href="index.html">Homepage!</a></li></ul>');
+  if(scorePrev==score){
+    $('#Check'+n+'').html('<h2> Wrong answer</h2>')
+  } else{
+    $('#Check'+n+'').html('<h2> You are correct!</h2>')
   }
+
+
   return false;
 }
 
