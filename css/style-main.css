@@ -223,4 +223,77 @@ li a:hover:not(.active) {
   .container{
     width: 95%;
   }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.0vh 2.0vw;
+    font-size: 4.0vw;
+    text-decoration: none;
+  }
+  .annenTekst{
+    color: white;
+    font-size: 4vw;
+    word-spacing: 5px
+    padding: 1px 1px;
+    line-height: 1.8;
+    -webkit-text-stroke: 0.2px black;
+  }
+  .header{
+    color: white;
+    padding: 50px 40px;
+    line-height: 1.3;
+    overflow:auto;
+    font-size: 11.0vw;
+    text-align: center;
+  }
+  .quizAlt{
+    color: white;
+    font-size: 4.0vw;
+    font-family: serif;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    padding: 5px 5px;
+  }
+
+
+  .storknapp{
+    display: block;
+      width: 40%;
+      border: none;
+      background: blue;
+      color: white;
+      padding: 7px 14px;
+      font-size: 6vw;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .overskrift{
+      color: white;
+      padding: 100px 20px;
+      overflow:auto;
+      font-size: 13vw;
+      text-align: center;
+
+    }
+
+    .underskrift{
+      color: white;
+      padding: 50px 45px;
+      overflow:auto;
+      font-size: 5vw;
+      text-align: center;
+      font-style: italic;
+    }
+
+    .QQ {
+      color: white;
+      padding: 10px 10px;
+      overflow:auto;
+      font-size: 5.0vw;
+      word-spacing: 5px
+      text-decoration: underline;
+
+    }
 }
