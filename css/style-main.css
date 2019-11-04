@@ -231,9 +231,10 @@ li a:hover:not(.active) {
     font-size: 4.0vw;
     text-decoration: none;
   }
+
   .annenTekst{
     color: white;
-    font-size: 4vw;
+    font-size: 3.5vw;
     word-spacing: 5px
     padding: 1px 1px;
     line-height: 1.8;
