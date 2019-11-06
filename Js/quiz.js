@@ -4,7 +4,6 @@ var points = 1;
 var highest = points * total;
 
 function init(){
-
   sessionStorage.setItem('a1','a');
   sessionStorage.setItem('a2','d');
   sessionStorage.setItem('a3','d');
@@ -30,15 +29,17 @@ function init(){
   sessionStorage.setItem('a23','d');
   sessionStorage.setItem('a24','b');
   sessionStorage.setItem('a25','c');
+  sessionStorage.setItem('a26','d');
+  sessionStorage.setItem('a27','c');
+  sessionStorage.setItem('a28','a');
+  sessionStorage.setItem('a29','d');
+  sessionStorage.setItem('a30','b');
 }
 
 $(document).ready(function(){
-
   $('.QF').hide();
   $('.fasit').hide();
-
   $('#Q1').show();
-
   $('.QF #submit').click(function(){
     current = $(this).parents('form:first').data('question');
     next = $(this).parents('form:first').data('question')+1;
@@ -47,7 +48,6 @@ $(document).ready(function(){
     $('#F'+current+'' ).fadeIn(300);
     return false;
   });
-
   $('.fasit #next').click(function(){
     current = $(this).parents('form:first').data('question');
     next = $(this).parents('form:first').data('question')+1;
@@ -59,7 +59,6 @@ $(document).ready(function(){
     $('#Q'+next+'' ).fadeIn(300);
     return false;
   });
-
 });
 
 function process(n){
@@ -73,10 +72,7 @@ function process(n){
   } else{
     $('#Check'+n+'').html('<h2> You are correct!</h2>')
   }
-
-
   return false;
 }
-
 
 window.addEventListener('load', init, false);
