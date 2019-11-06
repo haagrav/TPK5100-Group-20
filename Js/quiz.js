@@ -24,6 +24,12 @@ function init(){
   sessionStorage.setItem('a17','c');
   sessionStorage.setItem('a18','b');
   sessionStorage.setItem('a19','b');
+  sessionStorage.setItem('a20','c');
+  sessionStorage.setItem('a21','a');
+  sessionStorage.setItem('a22','b');
+  sessionStorage.setItem('a23','b');
+  sessionStorage.setItem('a24','d');
+  sessionStorage.setItem('a25','c');
 }
 
 $(document).ready(function(){
