@@ -1,5 +1,5 @@
 var score = 0;
-var total = 19;
+var total = 25;
 var points = 1;
 var highest = points * total;
 
