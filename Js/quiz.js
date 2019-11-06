@@ -7,28 +7,28 @@ function init(){
 
   sessionStorage.setItem('a1','a');
   sessionStorage.setItem('a2','d');
-  sessionStorage.setItem('a3','c');
+  sessionStorage.setItem('a3','d');
   sessionStorage.setItem('a4','b');
-  sessionStorage.setItem('a5','d');
+  sessionStorage.setItem('a5','b');
   sessionStorage.setItem('a6','d');
-  sessionStorage.setItem('a7','d');
-  sessionStorage.setItem('a8','b');
-  sessionStorage.setItem('a9','d');
-  sessionStorage.setItem('a10','b');
-  sessionStorage.setItem('a11','b');
-  sessionStorage.setItem('a12','a');
+  sessionStorage.setItem('a7','b');
+  sessionStorage.setItem('a8','c');
+  sessionStorage.setItem('a9','b');
+  sessionStorage.setItem('a10','a');
+  sessionStorage.setItem('a11','d');
+  sessionStorage.setItem('a12','b');
   sessionStorage.setItem('a13','c');
   sessionStorage.setItem('a14','c');
   sessionStorage.setItem('a15','d');
   sessionStorage.setItem('a16','a');
   sessionStorage.setItem('a17','c');
   sessionStorage.setItem('a18','b');
-  sessionStorage.setItem('a19','b');
+  sessionStorage.setItem('a19','d');
   sessionStorage.setItem('a20','c');
   sessionStorage.setItem('a21','a');
   sessionStorage.setItem('a22','b');
-  sessionStorage.setItem('a23','b');
-  sessionStorage.setItem('a24','d');
+  sessionStorage.setItem('a23','d');
+  sessionStorage.setItem('a24','b');
   sessionStorage.setItem('a25','c');
 }
 
