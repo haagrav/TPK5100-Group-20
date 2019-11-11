@@ -54,7 +54,7 @@ $(document).ready(function(){
     $('.QF').hide();
     $('.fasit').hide();
     if(current == total){
-      $('#results').html('<h3 class="QQ" > You got: '+score+' out of  '+highest+' points. <br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/><br/> <br/> <br/> <ul><li><a href="Quiz1.html"> Take the quiz again!</a></li> <li><a href="index.html">Homepage!</a></li></ul>');
+      $('#results').html('<h3 class="QQ" > You got: '+score+' out of  '+highest+' points. <br/> <br/><br/> <br/> <br/> <ul><li><a href="Quiz1.html"> Take the quiz again!</a></li> <li><a href="index.html">Homepage!</a></li></ul>');
     }
     $('#Q'+next+'' ).fadeIn(300);
     return false;
