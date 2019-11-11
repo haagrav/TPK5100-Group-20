@@ -66,7 +66,7 @@ $(document).ready(function(){
          $('#results').append('<h3 class= "QQ"> Good job! <h3>');
        } else if(finalScore >= 15){
          $('#results').append('<h3 class= "QQ"> About 50%, decent! :) <h3>');
-       }  } else if(finalScore >= 12){
+      } else if(finalScore >= 12){
           $('#results').append('<h3 class= "QQ"> Not too bad, but not that good either. Keep trying :) <h3>');
       } else{
          $('#results').append('<h3 class= "QQ"> Yikes, you should probably study a bit more. Maybe take the quiz again? ;) <h3>');
