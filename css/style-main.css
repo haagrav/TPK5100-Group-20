@@ -189,7 +189,7 @@ li a:hover:not(.active) {
   color: white;
   padding: 100px 20px;
   overflow:auto;
-  font-size: 10.5vw;
+  font-size: 9vw;
   text-align: center;
   -webkit-text-stroke: 2px black;
 }
