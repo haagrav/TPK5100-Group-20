@@ -12,17 +12,7 @@
   font-family: ariel;
   font-size: 16px;
   line-height: 1.6em;
-  background: midnightblue;
-  background-image: radial-gradient(blue, lightblue);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.bodyQuiz{
-  font-family: ariel;
-  font-size: 16px;
-  line-height: 1.6em;
-  background: midnightblue;
-  background-image: radial-gradient(blue, lightblue);
+  background-image: linear-gradient(gray, 	#696969);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -160,12 +150,13 @@ li a:hover:not(.active) {
   display: block;
     width: 20%;
     border: none;
-    background: blue;
+    background: darkgray;
     color: white;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
     text-align: center;
+    cursor: pointer;
   }
 
   .storknapp:hover {
@@ -182,6 +173,17 @@ li a:hover:not(.active) {
   line-height: 1.8;
   -webkit-text-stroke: 0.2px black;
 }
+.annenTekstKant{
+  color: white;
+  font-size: 1.5vw;
+  word-spacing: 5px
+  padding: 1px 1px;
+  line-height: 1.8;
+  -webkit-text-stroke: 0.2px black;
+  width: 50vw;
+  margin: auto;
+}
+
 
 .overskrift{
   color: white;
