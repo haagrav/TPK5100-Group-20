@@ -1,1 +1,2 @@
 Here are the files for the website made by group 20 for the course TPK5100.
+All the files ending with ".html" are the different web-pages written in HTML. These are sort of intuatively named, with "index" peing the main page, "about" being the about section, "side2" being the hub for the quiz, and "Quiz1" being the quiz. The .css file is for styling all the pages. The .js file is where all the logic for the qui is written. 
